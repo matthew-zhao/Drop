@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundend"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/highScoreTV"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:layout_weight="0.93"
+        android:gravity="center"
+        android:text=""
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/rB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="replay"
+            android:text="Replay" />
+
+        <Button
+            android:id="@+id/eB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="exit"
+            android:text="Exit" />
+    </LinearLayout>
+
+</LinearLayout>
